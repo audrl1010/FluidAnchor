@@ -22,13 +22,13 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func translatesAutoresizingMaskIntoConstraints(isActive: Bool) -> FluidConstraintView {
+  public func translatesAutoresizingMaskIntoConstraints(isActive: Bool) -> FluidConstraintView {
     self.view.translatesAutoresizingMaskIntoConstraints = isActive
     return self
   }
   
   @discardableResult
-  func contentHuggingPriority(
+  public func contentHuggingPriority(
     priority: UILayoutPriority,
     layoutConstraintAxis: UILayoutConstraintAxis
   ) -> FluidConstraintView {
@@ -37,7 +37,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func contentCompressionResistancePriority(
+  public func contentCompressionResistancePriority(
     priority: UILayoutPriority,
     layoutConstraintAxis: UILayoutConstraintAxis
   ) -> FluidConstraintView {
@@ -46,7 +46,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func centerXAnchor(
+  public func centerXAnchor(
     equalTo: NSLayoutXAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -63,7 +63,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func centerYAnchor(
+  public func centerYAnchor(
     equalTo: NSLayoutYAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -80,7 +80,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func leadingAnchor(
+  public func leadingAnchor(
     equalTo: NSLayoutXAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -97,7 +97,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func trailingAnchor(
+  public func trailingAnchor(
     equalTo: NSLayoutXAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -114,7 +114,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func leftAnchor(
+  public func leftAnchor(
     equalTo: NSLayoutXAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -131,7 +131,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func rightAnchor(
+  public func rightAnchor(
     equalTo: NSLayoutXAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -148,7 +148,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func topAnchor(
+  public func topAnchor(
     equalTo: NSLayoutYAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -165,7 +165,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func bottomAnchor(
+  public func bottomAnchor(
     equalTo: NSLayoutYAxisAnchor,
     constant: CGFloat = 0,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -182,7 +182,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func widthAnchor(
+  public func widthAnchor(
     equalTo: NSLayoutDimension,
     constant: CGFloat = 0,
     multiplier: CGFloat = 1.0,
@@ -205,7 +205,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func widthAnchor(
+  public func widthAnchor(
     equalToConstant: CGFloat,
     identifier: String? = nil,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -224,7 +224,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func heightAnchor(
+  public func heightAnchor(
     equalTo: NSLayoutDimension,
     constant: CGFloat = 0,
     multiplier: CGFloat = 1.0,
@@ -247,7 +247,7 @@ public struct FluidConstraintView {
   }
   
   @discardableResult
-  func heightAnchor(
+  public func heightAnchor(
     equalToConstant: CGFloat,
     identifier: String? = nil,
     constraint: AutoreleasingUnsafeMutablePointer<NSLayoutConstraint?>? = nil,
@@ -265,7 +265,7 @@ public struct FluidConstraintView {
     return self
   }
   
-  func removeAllConstraints() {
+  public func removeAllConstraints() {
     self.view.removeConstraints(self.view.constraints)
   }
 }

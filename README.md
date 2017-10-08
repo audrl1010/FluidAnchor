@@ -1,12 +1,12 @@
 
-# FluidAnchor
+
+
+<img src="https://github.com/audrl1010/FluidAnchor/blob/master/Example/Logo.png" alt="" />
 
 [![CI Status](http://img.shields.io/travis/audrl1010/FluidAnchor.svg?style=flat)](https://travis-ci.org/audrl1010/FluidAnchor)
 [![Version](https://img.shields.io/cocoapods/v/FluidAnchor.svg?style=flat)](http://cocoapods.org/pods/FluidAnchor)
 [![License](https://img.shields.io/cocoapods/l/FluidAnchor.svg?style=flat)](http://cocoapods.org/pods/FluidAnchor)
 [![Platform](https://img.shields.io/cocoapods/p/FluidAnchor.svg?style=flat)](http://cocoapods.org/pods/FluidAnchor)
-
-<img src="https://github.com/audrl1010/FluidAnchor/blob/master/Example/Logo.png" alt="" />
 
 FluidAnchor is a framework that makes it easy to use Auto Layout Anchor.
 
@@ -14,10 +14,6 @@ FluidAnchor is a framework that makes it easy to use Auto Layout Anchor.
 - iOS 9.0+
 
 ## Installation
-
-FluidAnchor is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
 pod 'FluidAnchor'
 ```

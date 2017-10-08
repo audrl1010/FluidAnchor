@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import FluidAnchor
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  var myView = UIView()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    myView.backgroundColor = .red
+    
+    self.view.addSubview(myView)
+    
+    myView.flu
+      .topAnchor(equalTo: topLayoutGuide.bottomAnchor, constant: 5)
+      .leftAnchor(equalTo: view.leftAnchor, constant: 5)
+      .rightAnchor(equalTo: view.rightAnchor, constant: -5)
+      .bottomAnchor(equalTo: bottomLayoutGuide.topAnchor, constant: -5)
+  }
 }
+
+
+
+
+
+
+
+
+
 
