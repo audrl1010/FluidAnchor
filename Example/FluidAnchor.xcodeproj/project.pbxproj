@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1E959292FBD618A62E74ECD6 /* Pods-FluidAnchor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidAnchor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluidAnchor_Tests/Pods-FluidAnchor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		27BD50E1BE1C86D31EE85850 /* FluidAnchor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FluidAnchor.podspec; path = ../FluidAnchor.podspec; sourceTree = "<group>"; };
+		27BD50E1BE1C86D31EE85850 /* FluidAnchor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FluidAnchor.podspec; path = ../FluidAnchor.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FluidAnchor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidAnchor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +40,10 @@
 		607FACE51AFB9204008FA782 /* FluidAnchor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidAnchor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		948C9966B584D1AF45020D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B675F1C1F8A325C006C12A0 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		948C9966B584D1AF45020D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A39C32371091C69924887FC9 /* Pods_FluidAnchor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidAnchor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE60F922794CE2DE28DAC8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AAE60F922794CE2DE28DAC8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C81696F21FAB4467BDA1AEF2 /* Pods-FluidAnchor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidAnchor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluidAnchor_Example/Pods-FluidAnchor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7E45EC8A026C508A5391C73 /* Pods_FluidAnchor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidAnchor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC88BFE815A50D7B41EE8D /* Pods-FluidAnchor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidAnchor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluidAnchor_Tests/Pods-FluidAnchor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				27BD50E1BE1C86D31EE85850 /* FluidAnchor.podspec */,
+				8B675F1C1F8A325C006C12A0 /* Logo.png */,
 				AAE60F922794CE2DE28DAC8B /* README.md */,
 				948C9966B584D1AF45020D76 /* LICENSE */,
 			);
