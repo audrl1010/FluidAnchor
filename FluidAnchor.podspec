@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This is a framework that makes it easy to use Auto Layout Anchor.
+FluidAnchor is a framework that makes it easy to use Auto Layout Anchor.
                        DESC
 
   s.homepage         = 'https://github.com/audrl1010/FluidAnchor'
