@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FluidAnchor_Example' do
+  pod 'FluidAnchor', :path => '../'
+
+  target 'FluidAnchor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
